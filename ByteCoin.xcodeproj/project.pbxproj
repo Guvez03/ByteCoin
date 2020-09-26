@@ -13,6 +13,8 @@
 		E3EF29D5251FBC47007057BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EF29D3251FBC47007057BB /* Main.storyboard */; };
 		E3EF29D7251FBC4A007057BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3EF29D6251FBC4A007057BB /* Assets.xcassets */; };
 		E3EF29DA251FBC4A007057BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EF29D8251FBC4A007057BB /* LaunchScreen.storyboard */; };
+		E3EF29E2251FBFFB007057BB /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EF29E1251FBFFB007057BB /* CoinManager.swift */; };
+		E3EF29E4251FC915007057BB /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EF29E3251FC915007057BB /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E3EF29D6251FBC4A007057BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3EF29D9251FBC4A007057BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3EF29DB251FBC4A007057BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3EF29E1251FBFFB007057BB /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		E3EF29E3251FC915007057BB /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E3EF29D6251FBC4A007057BB /* Assets.xcassets */,
 				E3EF29D8251FBC4A007057BB /* LaunchScreen.storyboard */,
 				E3EF29DB251FBC4A007057BB /* Info.plist */,
+				E3EF29E1251FBFFB007057BB /* CoinManager.swift */,
+				E3EF29E3251FC915007057BB /* CoinModel.swift */,
 			);
 			path = ByteCoin;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EF29E4251FC915007057BB /* CoinModel.swift in Sources */,
+				E3EF29E2251FBFFB007057BB /* CoinManager.swift in Sources */,
 				E3EF29D2251FBC47007057BB /* ViewController.swift in Sources */,
 				E3EF29CE251FBC47007057BB /* AppDelegate.swift in Sources */,
 				E3EF29D0251FBC47007057BB /* SceneDelegate.swift in Sources */,
